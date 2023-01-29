@@ -73,7 +73,7 @@ def calc_stampduty(_salePrice, _dutyType, _propertyType):
 
 propertyType = st.selectbox('Property Type', ['New or Established Home', 'Vacant Land'])
 dutyType = st.selectbox('Duty Type', ['General', 'First Home Buyer', 'Concessional'])
-salePrice = st.slider("Sale Price", 0, 10000000, 500000, 1000)
+salePrice = st.slider("Sale Price", 0, 2000000, 500000, 1000)
 
 stampDuty, errormsg = calc_stampduty(salePrice, dutyType, propertyType)
 

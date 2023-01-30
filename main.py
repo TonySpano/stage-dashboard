@@ -10,7 +10,7 @@ st.title('Stage Property')
 st.selectbox('test', ['test1', 'test2', 'test3'])
 st.subheader('Stamp-Duty Calculator')
 st.write('Reference tool for estimating stamp duty')
-
+st.title('just added')
 #st.dropdown 'language selector'
 
 def calc_stampduty(_salePrice, _dutyType, _propertyType):

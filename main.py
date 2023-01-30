@@ -7,7 +7,7 @@ This is a temporary script file.
 import streamlit as st
 
 st.title('Stage Property')
-
+st.selectbox('test', ['test1', 'test2', 'test3'])
 st.subheader('Stamp-Duty Calculator')
 st.write('Reference tool for estimating stamp duty')
 
